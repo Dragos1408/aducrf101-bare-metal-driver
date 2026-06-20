@@ -1,19 +1,0 @@
-Dependencies for Project 'proj_1', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\startup_ADuCRF101.s)(0x6A209E06)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-mlittle-endian -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/drago/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM3/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"ARMCM3 SETA 1"-o ./objects/startup_aducrf101.o)
-F (.\system_ADuCRF101.c)(0x6A209DEF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Users/drago/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include -I D:/analog_d_proj/proj_1-IC:/Users/drago/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="535" -DARMCM3-o ./objects/system_aducrf101.o -MD)
-I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
-I (D:\analog_d_proj\proj_1\ADuCRF101.h)(0x6A21405F)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D42F32)
-I (D:\analog_d_proj\proj_1\system_ADuCRF101.h)(0x6A209DF4)
-F (.\main.c)(0x6A214739)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -mlittle-endian -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I C:/Users/drago/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include -I D:/analog_d_proj/proj_1-IC:/Users/drago/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/Device/ARM/ARMCM3/Include-D__UVISION_VERSION="535" -DARMCM3-o ./objects/main.o -MD)
-I (D:\MDK\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
-I (D:\analog_d_proj\proj_1\ADuCRF101.h)(0x6A21405F)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D42F32)
-I (C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D42F32)
-I (D:\analog_d_proj\proj_1\system_ADuCRF101.h)(0x6A209DF4)
