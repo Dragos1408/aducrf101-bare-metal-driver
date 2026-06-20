@@ -1,0 +1,16 @@
+# Keil build output
+Objects/
+Listings/
+
+# Compiled binary
+proj_1
+
+# Keil user-specific GUI state (machine-specific, not useful to others)
+*.uvgui.*
+*.uvguix.*
+
+# Keil options backup
+proj_1.uvopt
+
+# Build batch file (auto-generated)
+Target 1.BAT
