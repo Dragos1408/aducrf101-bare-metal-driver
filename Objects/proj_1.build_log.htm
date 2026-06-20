@@ -1,0 +1,88 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cabalau Dragos, Gheorghe Asachi University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.35.0.2
+Toolchain Path:  D:\MDK\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\analog_d_proj\proj_1\proj_1.uvprojx
+Project File Date:  06/04/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'D:\MDK\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+system_ADuCRF101.c(44): warning: In file included from...
+D:/analog_d_proj/proj_1/ADuCRF101.h(8162): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+D:/analog_d_proj/proj_1/ADuCRF101.h(9073): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+system_ADuCRF101.c(77): warning: 'CLKCON_CLKMUX_EXTP05' is not defined, evaluates to 0 [-Wundef]
+    | CLKCON_CLKMUX_EXTP05) \
+      ^
+system_ADuCRF101.c(153): warning: no previous prototype for function 'SystemSetClockDivider' [-Wmissing-prototypes]
+void SystemSetClockDivider(uint16_t div)
+     ^
+system_ADuCRF101.c(153): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SystemSetClockDivider(uint16_t div)
+^
+static 
+system_ADuCRF101.c(171): warning: no previous prototype for function 'SystemGetClockFrequency' [-Wmissing-prototypes]
+uint32_t SystemGetClockFrequency(void)
+         ^
+system_ADuCRF101.c(171): note: declare 'static' if the function is not intended to be used outside of this translation unit
+uint32_t SystemGetClockFrequency(void)
+^
+static 
+5 warnings generated.
+compiling system_ADuCRF101.c...
+assembling startup_ADuCRF101.s...
+main.c(20): warning: In file included from...
+D:/analog_d_proj/proj_1/ADuCRF101.h(8162): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+D:/analog_d_proj/proj_1/ADuCRF101.h(9073): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+D:/analog_d_proj/proj_1/ADuCRF101.h(2515): warning: padding size of 'ADI_GPIO_TypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct {                            /*!< pADI_GP0 Structure                     */
+        ^
+3 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=2676 RO-data=440 RW-data=0 ZI-data=1672  
+FromELF: creating hex file...
+".\Objects\proj_1.axf" - 0 Error(s), 8 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\drago\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
